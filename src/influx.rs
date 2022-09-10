@@ -89,7 +89,7 @@ impl Measurement {
 
 impl Display for Measurement {
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
-        write!(f, "{}", self.to_line_protocol(TimestampFormat::Ms)? )
+        write!(f, "{}", self.to_line_protocol(TimestampFormat::Ns)? )
     }
 }
 
