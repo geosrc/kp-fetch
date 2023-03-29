@@ -87,7 +87,7 @@ impl FromStr for KpFile {
 pub struct Entry {
     pub date: NaiveDateTime,
     pub kp: f32,
-    pub ap: i8,
+    pub ap: i32,
     pub d: i8
 }
 
